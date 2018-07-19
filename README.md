@@ -1,3 +1,3 @@
 # Database-app-of-users
 My first PHP project.<br>
-Before you run the project by localhost/Database-app-of-users-master/database_app/index.php you should <b>install a database and table by localhost/Database-app-of-users-master/install.php in your browser.</b>
+Before you run the project by localhost/Database-app-of-users-master/database_app/index.php , firstly you should <b><big>install a database and table byt localhost/Database-app-of-users-master/install.php in your browser.</big></b>
