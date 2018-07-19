@@ -1,0 +1,162 @@
+body {
+    background-image: url("../css/dust_scratches.png");
+    -moz-background-image: url("../css/dust_scratches.png");
+    -webkit-background-image: url("../css/dust_scratches.png");
+    font-family: "Lao UI";
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.panel_links {
+    color: #000;
+    font-weight: bold;
+}
+
+.add_item, add {
+    background: #00df2d;
+}
+
+.add_item:hover {
+    background: #00ff30;
+    transition: 0.3s ease-out;
+}
+
+.del_item {
+    background: #dc2111;
+}
+
+.del_item:hover {
+    background: #ff2814;
+    transition: 0.3s ease-out;
+}
+
+.edit_item {
+    background: #3c0dcc;
+}
+
+.edit_item:hover {
+    background: #5213ff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.addform {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.home {
+    font-weight: 600;
+    color: #230500;
+    padding: 6px;
+    border: 2px solid #230500;
+    border-radius: 4px;
+}
+
+.home:hover {
+    color: #ffffff;
+    background: #230500;
+    transition: 0.3s ease-out;
+}
+
+ul {
+    padding: 20px 0;
+}
+
+ul {
+    text-align: center;
+    font-size: 20px;
+}
+
+ul > li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 40px;
+    margin: 0 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+table {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid black;
+    width: 70%;
+    text-align: center;
+}
+
+th, td {
+    padding: 5px;
+    border-bottom: 1px solid #aaa;
+}
+
+th {
+    background-color: #9e42b6;
+    color: white;
+}
+
+thead {
+    padding: 5px;
+    border: 2px solid #000;
+}
+
+tr:nth-child(even) {
+    background-color: #e8e8e8;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.txt {
+    color: #000000 !important;
+    font-size: 1.2rem !important;
+    margin: 1.2rem 0;
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    border-bottom: 2px solid #5a1f90;
+}
+
+label {
+    color: #000000 !important;
+    font-size: 1.2rem !important;
+}
+
+.button {
+    font-weight: 600;
+    color: forestgreen;
+    padding: 6px;
+    border: 2px solid forestgreen;
+    border-radius: 4px;
+    background: transparent;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background: forestgreen;
+    transition: 0.3s ease-out;
+}
+
+.back {
+    color: #230500;
+    font-weight: 600;
+}
